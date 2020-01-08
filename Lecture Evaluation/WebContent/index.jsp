@@ -26,9 +26,9 @@
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" id="dropdown" data-toggle="dropdown">회원 관리</a>
 					<div class="dropdown-menu" aria-labelledby="dropdown">
-						<a class="dropdown-item" href="#">로그인</a> 
-						<a class="dropdown-item" href="#">회원가입</a>
-						<a class="dropdown-item" href="#">로그아웃</a>
+						<a class="dropdown-item" href="userLogin.jsp">로그인</a> 
+						<a class="dropdown-item" href="userJoin.jsp">회원가입</a>
+						<a class="dropdown-item" href="userLogout.jsp">로그아웃</a>
 					</div>
 				</li>
 			</ul>
@@ -83,15 +83,15 @@
 		<div class="card bg-light mt-3">
 			<div class="card-header bg-light">
 				<div class="row">
-					<div class="col-8 text-left">객체지향 Java&nbsp;<small>정표용</small></div>
+					<div class="col-8 text-left">규환이 곧휴&nbsp;<small>이규환</small></div>
 					<div class="col-4 text-right">종합
 						<span style="color: red;">A</span>
 					</div>
 				</div>
 			</div>
 			<div class="card-body">
-				<h5 class="card-title">정말 좋은 강의에요.&nbsp;<small>(2019년 1학기)</small></h5>
-				<p class="card-text">쉽게 잘 가르쳐 주어서 좋습니다. 학점도 잘 나옵니다. 이 수업을 추천합니다.</p>
+				<h5 class="card-title">정말 큰 그거입니다.&nbsp;<small>(2019년 2학기)</small></h5>
+				<p class="card-text">진짜 장난 아닙니다. 세상 마상... </p>
 				<div class="row">
 					<div class="col-9 text-left">
 						성적<span style="color: red;">A</span>
