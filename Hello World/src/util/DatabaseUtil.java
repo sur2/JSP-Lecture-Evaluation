@@ -7,8 +7,6 @@ public class DatabaseUtil {
 	
 	private DatabaseUtil() {}
 	
-	private static DatabaseUtil instance = null;
-	
 	private static class LazyHolder {
 		public static final DatabaseUtil INSTANCE = new DatabaseUtil();
 	}
