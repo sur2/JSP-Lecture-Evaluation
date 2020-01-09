@@ -83,21 +83,21 @@
 		<div class="card bg-light mt-3">
 			<div class="card-header bg-light">
 				<div class="row">
-					<div class="col-8 text-left">규환이 곧휴&nbsp;<small>이규환</small></div>
+					<div class="col-8 text-left">최예전! 사랑해&nbsp;<small>대형견!</small></div>
 					<div class="col-4 text-right">종합
 						<span style="color: red;">A</span>
 					</div>
 				</div>
 			</div>
 			<div class="card-body">
-				<h5 class="card-title">정말 큰 그거입니다.&nbsp;<small>(2019년 2학기)</small></h5>
-				<p class="card-text">진짜 장난 아닙니다. 세상 마상... </p>
+				<h5 class="card-title">데이트하자!!&nbsp;<small>용준이와 함께</small></h5>
+				<p class="card-text">시간아 빨리 가라~~</p>
 				<div class="row">
 					<div class="col-9 text-left">
 						성적<span style="color: red;">A</span>
 						널널<span style="color: red;">A</span>
 						강의<span style="color: red;">A</span>
-						<span style="color: green;">(추천: 15)</span>
+						<span style="color: green;">(추천: 99)</span>
 					</div>
 					<div class="col-3 text-right" >
 						<a onclick="return confirm('추천하시겠습니까?)'" href="./likeAction.jsp?evaluationID=">추천</a>

@@ -22,7 +22,6 @@ public class UserDAO {
 			pstmt = conn.prepareStatement(SQL);
 			pstmt.setString(1, userID);
 			rs = pstmt.executeQuery();
-
 			if (rs.next()) {
 				if (rs.getString(1).equals(userPassword)) {
 					return 1; // 로그인 성공
@@ -58,7 +57,6 @@ public class UserDAO {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
-
 		try {
 			conn = DatabaseUtil.getInstance().getConnection();
 			pstmt = conn.prepareStatement(SQL);
@@ -67,7 +65,6 @@ public class UserDAO {
 			pstmt.setString(3, user.getUserEmail());
 			pstmt.setString(4, user.getUserEmailHash());
 			return pstmt.executeUpdate();
-
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} finally {
