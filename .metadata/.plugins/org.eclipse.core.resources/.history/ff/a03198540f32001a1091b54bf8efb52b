@@ -1,0 +1,18 @@
+package util;
+
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
+public class SHA256 {
+	public static String getSHA256(String input) {
+		StringBuffer result = new StringBuffer();
+		try {
+			MessageDigest messageDigest = MessageDigest.getInstance("SHA-256");
+			byte[] salt = "Hello! This is Salt.".getBytes();
+			
+		} catch (NoSuchAlgorithmException e) {
+			e.printStackTrace();
+		}
+		return result.toString();
+	}
+}
