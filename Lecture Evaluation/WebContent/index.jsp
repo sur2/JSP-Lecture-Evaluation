@@ -21,6 +21,24 @@
 	if (session.getAttribute("userID") != null) {
 		userID = (String) session.getAttribute("userID");
 	}
+	if (userID == null) {
+		PrintWriter script = response.getWriter();
+		script.write("<script>");
+		script.write("alert('로그인을 해주세요.');");
+		script.write("location.href = 'userLogin.jsp';");
+		script.write("</script>");
+		script.close();
+		return;
+	}
+	boolean emailChecked = new UserDAO().getUserEmailChecked(userID);
+	if (!emailChecked) {
+		PrintWriter script = response.getWriter();
+		script.write("<script>");
+		script.write("location.href = 'emailSendConfirm.jsp';");
+		script.write("</script>");
+		script.close();
+		return;
+	}
 %>
 	<nav class="navbar navbar-expand-md navbar-light bg-light">
 		<a class="navbar-brand" href="index.jsp">강의평가 웹 사이트</a>
@@ -35,9 +53,19 @@
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" id="dropdown" data-toggle="dropdown">회원 관리</a>
 					<div class="dropdown-menu" aria-labelledby="dropdown">
+						
+						<%
+							if (userID == null) {
+						%>
 						<a class="dropdown-item" href="userLogin.jsp">로그인</a> 
 						<a class="dropdown-item" href="userJoin.jsp">회원가입</a>
+						<%
+							} else {
+						%>
 						<a class="dropdown-item" href="userLogout.jsp">로그아웃</a>
+						<%
+							}
+						%>
 					</div>
 				</li>
 			</ul>
@@ -267,9 +295,8 @@
 		</div>
 	</div>
 	
-	<footer class="bg-dark mt-4 p-5 text-center" style="color: #FFFFFF;">
-		Copyright &copy; 2020 정표용 All Rights Reserved.
-	</footer>
+	<!-- footer include -->
+	<%@ include file = "./include/footer.jsp" %>
 	
 	<!-- JQuery js 추가하기 -->
 	<script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>

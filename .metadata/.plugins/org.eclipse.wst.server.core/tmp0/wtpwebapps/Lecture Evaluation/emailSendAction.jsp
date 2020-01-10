@@ -108,8 +108,6 @@
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" id="dropdown" data-toggle="dropdown">회원 관리</a>
 					<div class="dropdown-menu" aria-labelledby="dropdown">
-						<a class="dropdown-item" href="userLogin.jsp">로그인</a> 
-						<a class="dropdown-item" href="userJoin.jsp">회원가입</a>
 						<a class="dropdown-item" href="userLogout.jsp">로그아웃</a>
 					</div>
 				</li>
@@ -123,7 +121,7 @@
 	
 	<section class="container mt-3" style="max-width: 560px;">
 		<div class="alert alert-success mt-4" role="alert">
-			이메일 주소 인증이 완료되었습니다. 회원가입시 입력했던 이메일에 들어가서 인증해주세요.
+			이메일 주소 인증 메일이 전송되었습니다. 회원가입시 입력했던 이메일에 들어가서 인증해주세요.
 		</div>
 	</section>
 	
