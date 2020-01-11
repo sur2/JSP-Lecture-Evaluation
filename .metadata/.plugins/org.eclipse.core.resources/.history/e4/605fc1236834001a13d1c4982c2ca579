@@ -1,0 +1,62 @@
+package evaluation;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import util.DatabaseUtil;
+
+public class EvaluationDAO {
+	public int write(EvaluationDTO evaluationDTO) {
+
+		String SQL = "INSERT INTO EVALUATION VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0)";
+
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+
+		try {
+			conn = DatabaseUtil.getInstance().getConnection();
+			pstmt = conn.prepareStatement(SQL);
+			pstmt.setString(1, userID);
+			pstmt.setString(2, userID);
+			pstmt.setString(3, userID);
+			pstmt.setInt(4, userID);
+			pstmt.setString(5, userID);
+			pstmt.setString(6, userID);
+			pstmt.setString(7, userID);
+			pstmt.setString(8, userID);
+			pstmt.setString(9, userID);
+			pstmt.setString(10, userID);
+			pstmt.setString(11, userID);
+			pstmt.setString(14, userID);
+			rs = pstmt.executeQuery();
+			if (rs.next()) {
+				if (rs.getString(1).equals(userPassword)) {
+					return 1; // 로그인 성공
+				} else {
+					return 0; // 비밀번호 틀림
+				}
+			}
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (rs != null) {
+					rs.close();
+				}
+				if (pstmt != null) {
+					pstmt.close();
+				}
+				if (conn != null) {
+					conn.close();
+				}
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		return -2; // 데이터베이스 오류
+	}
+}

@@ -28,6 +28,8 @@ public class UserDAO {
 				} else {
 					return 0; // 비밀번호 틀림
 				}
+			} else {
+				return -1; // 없는 회원
 			}
 
 		} catch (SQLException e) {

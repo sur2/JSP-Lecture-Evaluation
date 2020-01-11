@@ -5,6 +5,6 @@
 	session.invalidate();
 %>
 
-<sciprt>
+<script>
 	location.href = 'index.jsp';
-</sciprt>
+</script>

@@ -53,7 +53,7 @@
 		script.println("</script>");
 		script.close();
 		return;
- 	} else if(result == -1) {
+ 	} else if(result == -2) {
 		PrintWriter script = response.getWriter();
 		script.println("<script>");
 		script.print("alert('데이터베이스 오류가 발생했습니다.');");		

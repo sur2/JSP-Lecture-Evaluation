@@ -21,11 +21,11 @@
 	if (session.getAttribute("userID") != null) {
 		userID = (String) session.getAttribute("userID");
 	}
-	if (userID == null) {
+	if (userID != null) {
 		PrintWriter script = response.getWriter();
 		script.write("<script>");
 		script.write("alert('로그인이 된 상태입니다..');");
-		script.write("location.href = 'userLogin.jsp';");
+		script.write("location.href = 'index.jsp';");
 		script.write("</script>");
 		script.close();
 		return;

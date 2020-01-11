@@ -1,0 +1,20 @@
+package evaluation;
+
+public class EvaluationDTO {
+	private int evaluationID;
+	private String userID;
+	private String lectureName;
+	private String professorName;
+	private int lectureYear;
+	private String semesterDivide;
+	private String lectureDivide;
+	private String evaluationTitle;
+	private String evaluationContent;
+	private String totalScore;
+	private String creditScore;
+	private String comfortableScore;
+	private String lectureScore;
+	private int likeCount;
+	
+	
+}

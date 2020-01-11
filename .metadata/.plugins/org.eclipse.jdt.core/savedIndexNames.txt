@@ -3,7 +3,6 @@ INDEX VERSION 1.131+C:\Users\Owner\Desktop\coding\JSP-Lecture-Evaluation\.metada
 2647112219.index
 3920821404.index
 1554051480.index
-3839915139.index
 2135291085.index
 4193803526.index
 1664405848.index
@@ -44,12 +43,11 @@ INDEX VERSION 1.131+C:\Users\Owner\Desktop\coding\JSP-Lecture-Evaluation\.metada
 1788321357.index
 480691596.index
 526019975.index
-3934384119.index
 1259625253.index
+3934384119.index
 267232740.index
 3599033941.index
 648754355.index
-3539544518.index
 2800883107.index
 3808843675.index
 3935241189.index
