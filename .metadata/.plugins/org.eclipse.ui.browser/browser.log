@@ -25,3 +25,34 @@
 1월 12, 2020 19:10:28.34 [10424:11216:0112/191028.346:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -106
 1월 12, 2020 19:11:18.03 [10424:10612:0112/191118.030:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
 1월 12, 2020 19:14:24.39 [10424:7004:0112/191424.395:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+1월 12, 2020 20:13:01.48 [10424:11216:0112/201301.485:ERROR:socket_stream.cc(218)] Closing stream with result -2
+1월 12, 2020 20:13:01.57 [10424:11216:0112/201301.574:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+1월 12, 2020 20:23:37.51 [10424:11216:0112/202337.516:ERROR:socket_stream.cc(218)] Closing stream with result -2
+1월 12, 2020 20:23:37.52 [10424:11216:0112/202337.519:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+1월 12, 2020 20:23:40.30 [10424:11216:0112/202340.305:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -106
+1월 12, 2020 20:26:42.29 [10424:11216:0112/202642.291:ERROR:socket_stream.cc(218)] Closing stream with result -2
+1월 12, 2020 20:26:42.37 [10424:11216:0112/202642.370:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+1월 12, 2020 20:26:43.87 [10424:11216:0112/202643.878:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -106
+1월 12, 2020 20:27:30.02 [10424:11216:0112/202730.022:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -106
+1월 12, 2020 20:29:03.80 [10424:11216:0112/202903.804:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -106
+1월 12, 2020 20:32:53.54 [10424:11216:0112/203253.548:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -106
+1월 12, 2020 20:39:28.36 [10424:11216:0112/203928.368:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -106
+1월 12, 2020 20:49:28.37 [10424:11216:0112/204928.371:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -106
+1월 12, 2020 20:56:28.37 [10424:11216:0112/205628.377:ERROR:socket_stream.cc(218)] Closing stream with result -2
+1월 12, 2020 20:56:32.37 [10424:11216:0112/205632.373:ERROR:socket_stream.cc(218)] Closing stream with result -2
+1월 12, 2020 20:57:17.74 [10424:11216:0112/205717.740:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -109
+1월 12, 2020 20:57:19.34 [10424:11216:0112/205719.346:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -106
+1월 12, 2020 21:06:49.25 [10424:11216:0112/210649.258:ERROR:socket_stream.cc(218)] Closing stream with result -2
+1월 12, 2020 21:06:49.34 [10424:11216:0112/210649.342:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -106
+1월 12, 2020 21:06:51.46 [10424:11216:0112/210651.461:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -106
+1월 12, 2020 21:07:33.81 [10424:11216:0112/210733.814:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -106
+1월 12, 2020 21:29:38.47 [10424:11216:0112/212938.470:ERROR:socket_stream.cc(218)] Closing stream with result -2
+1월 12, 2020 21:29:38.52 [10424:11216:0112/212938.521:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -106
+1월 12, 2020 21:29:42.86 [10424:11216:0112/212942.861:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -21
+1월 12, 2020 21:29:52.28 [10424:11216:0112/212952.288:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+1월 12, 2020 21:30:03.90 [10424:10612:0112/213003.903:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+1월 12, 2020 21:58:28.45 [10424:11216:0112/215828.451:ERROR:socket_stream.cc(218)] Closing stream with result -2
+1월 12, 2020 21:58:28.50 [10424:11216:0112/215828.500:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -21
+1월 12, 2020 21:58:30.01 [10424:11216:0112/215830.012:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -106
+1월 12, 2020 21:59:19.64 [10424:11216:0112/215919.649:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -106
+1월 12, 2020 22:00:56.30 [10424:11216:0112/220056.305:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -106
