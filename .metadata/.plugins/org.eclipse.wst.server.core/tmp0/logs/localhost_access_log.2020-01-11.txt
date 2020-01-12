@@ -18,3 +18,17 @@
 0:0:0:0:0:0:0:1 - - [11/Jan/2020:21:42:56 +0900] "GET /Lecture_Evaluation/ HTTP/1.1" 200 85
 0:0:0:0:0:0:0:1 - - [11/Jan/2020:21:42:57 +0900] "GET /Lecture_Evaluation/userLogin.jsp HTTP/1.1" 200 2602
 0:0:0:0:0:0:0:1 - - [11/Jan/2020:21:43:05 +0900] "POST /Lecture_Evaluation/userLoginAction.jsp HTTP/1.1" 200 14
+127.0.0.1 - - [11/Jan/2020:21:44:33 +0900] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [11/Jan/2020:21:44:33 +0900] "GET /Lecture_Evaluation/ HTTP/1.1" 200 85
+0:0:0:0:0:0:0:1 - - [11/Jan/2020:21:44:34 +0900] "GET /Lecture_Evaluation/userLogin.jsp HTTP/1.1" 200 2602
+0:0:0:0:0:0:0:1 - - [11/Jan/2020:21:44:48 +0900] "POST /Lecture_Evaluation/userLoginAction.jsp HTTP/1.1" 200 14
+0:0:0:0:0:0:0:1 - - [11/Jan/2020:21:47:42 +0900] "POST /Lecture_Evaluation/userLoginAction.jsp HTTP/1.1" 200 75
+0:0:0:0:0:0:0:1 - - [11/Jan/2020:21:47:48 +0900] "POST /Lecture_Evaluation/userLoginAction.jsp HTTP/1.1" 200 75
+0:0:0:0:0:0:0:1 - - [11/Jan/2020:21:48:46 +0900] "POST /Lecture_Evaluation/userLoginAction.jsp HTTP/1.1" 200 85
+0:0:0:0:0:0:0:1 - - [11/Jan/2020:21:50:10 +0900] "POST /Lecture_Evaluation/userLoginAction.jsp HTTP/1.1" 200 49
+0:0:0:0:0:0:0:1 - - [11/Jan/2020:21:50:12 +0900] "GET /Lecture_Evaluation/index.jsp HTTP/1.1" 200 11223
+0:0:0:0:0:0:0:1 - - [11/Jan/2020:21:50:50 +0900] "POST /Lecture_Evaluation/evaluationRegisterAction.jsp HTTP/1.1" 200 90
+0:0:0:0:0:0:0:1 - - [11/Jan/2020:21:51:54 +0900] "GET /Lecture_Evaluation/index.jsp HTTP/1.1" 200 11223
+0:0:0:0:0:0:0:1 - - [11/Jan/2020:21:52:23 +0900] "POST /Lecture_Evaluation/evaluationRegisterAction.jsp HTTP/1.1" 200 48
+0:0:0:0:0:0:0:1 - - [11/Jan/2020:21:52:26 +0900] "GET /Lecture_Evaluation/index.jsp HTTP/1.1" 200 11223
+0:0:0:0:0:0:0:1 - - [11/Jan/2020:21:52:33 +0900] "GET /Lecture_Evaluation/index.jsp HTTP/1.1" 200 11223
