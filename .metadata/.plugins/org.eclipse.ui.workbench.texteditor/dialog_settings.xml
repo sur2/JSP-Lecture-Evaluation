@@ -6,8 +6,11 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="lg"/>
+		<item key="selection" value="추천"/>
 		<list key="findhistory">
+			<item value="추천"/>
+			<item value="evaluationT"/>
+			<item value="evaluation"/>
 			<item value="lg"/>
 		</list>
 		<list key="replacehistory">

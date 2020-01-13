@@ -36,14 +36,15 @@
 			script.write("</script>");
 			script.close();
 			return;
-		} else {
-			PrintWriter script = response.getWriter();
-			script.write("<script>");
-			script.write("alert('자신이 쓴 글만 삭제 가능합니다.');");
-			script.write("history.back();");
-			script.write("</script>");
-			script.close();
-			return;
-		}
+		} 
+	} 
+	else {
+		PrintWriter script = response.getWriter();
+		script.write("<script>");
+		script.write("alert('자신이 쓴 글만 삭제 가능합니다.');");
+		script.write("history.back();");
+		script.write("</script>");
+		script.close();
+		return;
 	}
 %>

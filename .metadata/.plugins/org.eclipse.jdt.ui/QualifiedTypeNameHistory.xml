@@ -6,4 +6,7 @@
 <fullyQualifiedTypeName name="util.DatabaseUtil.LazyHolder"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="util.DatabaseUtil"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="evaluation.EvaluationDTO"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>
