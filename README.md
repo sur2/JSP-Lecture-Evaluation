@@ -2,6 +2,7 @@
 ### 나동빈님의 'JSP 강의평가 웹 사이트  개발하기' 강좌 
 
 ### http://34.69.65.28:8081/Lecture_Evaluation
+2020.05.31부로 클라우드 종료
 
 javax.mail.* 패키지, util.Gmail을 사용한 Gmail를 Google Cloud Platform으로 배포하니 Server 국적으로 로그인 시도가 감지되어 활동을 차단합니다. Gmail를 사용한 이메일 인증 기능인 회원가입과 신고 기능이 중단되었습니다.
 
